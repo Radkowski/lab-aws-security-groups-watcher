@@ -1,0 +1,22 @@
+Parameters:
+
+  DeploymentPrefix: "Rki-LAB"
+
+  Region: eu-central-1
+
+
+  AuthTags:
+    Owner: "me@radkowski.pro"
+    Env: Dev
+    Deployment-method: TFE
+
+  Updated_CIDR: "1.2.3.0/24"
+  Modify_or_Delete: True
+
+  ShieldTag:
+    Active: True
+    Key: "alfa"
+    Value: "beta"
+
+    
+
